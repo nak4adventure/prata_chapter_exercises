@@ -1,0 +1,16 @@
+Chapter Review
+
+(1) functions
+(2) #include <iostream> includes the functions from iostream
+(3) using namespace std; makes everything use namespace std::
+(4) std::cout << "Hello,world" << endl;
+or  std::cout << "Hello,world \n";
+(5) int cheeses;
+(6) cheeses = 32;
+(7) std::cin >> cheeses;
+(8) std::cout << "We have " << cheeses << "varieties of cheese";
+(9) int froop(double t); expects double argument and returns an int
+    void rattle(int n);  expects int argument and returns nothing
+    int prune(void);     expects no argument and returns int
+(10) function does not need return statement if returns void (returns nothing)
+(11) cout is an unknown identifier --> use namespace std; or std::cout
