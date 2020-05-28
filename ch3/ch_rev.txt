@@ -2,11 +2,11 @@ Chapter Review
 
 (1) different number of bytes per type
 (2) (a) short value = 80
-    (b) int value = 42110
-    (c) long value = 3e9
+    (b) unsigned int value = 42110
+    (c) unsigned long value = 3e9
 (3) none
 (4) 33L is of type long constant, 33 is of type short/int/long
-(5) yes
+(5) no, output might be same though
 (6) 
 
 #include <iostream>
@@ -23,14 +23,14 @@ int main()
 (7) depends on implementation
 (8) (a) 74
     (b) 4
-    (c) 4
+    (c) 0
     (d) 4.5
     (e) 3
 (9) int x3 = (x1) + int (x2) // add double x1,x2 as int, sum = int
-    int x3 = x1 + x1         // add x1,x2 as double, sum = int
+    int x3 = int (x1 + x2)   // add x1,x2 as double, sum = int
 (10) (a) int 
      (b) const float
      (c) char
-     (d) char
+     (d) char32_t
      (e) double
 
